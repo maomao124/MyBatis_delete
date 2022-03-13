@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="t1.SiteMapper">
+
+    <delete id="deleteSite" parameterType="site">
+        delete
+        from website
+        where id = #{id};
+    </delete>
+
+    <delete id="deleteSite1">
+        delete
+        from website
+        where id = #{id};
+    </delete>
+</mapper>
